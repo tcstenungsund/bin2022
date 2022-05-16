@@ -2,6 +2,8 @@
  * @file
  * Subtheme specific CSS.
  */
+
+
 body {
     font-family: 'Roboto Slab', serif;
 }
@@ -98,5 +100,3 @@ section.row.region.region-header-form div h2{
 div#edit-actions, input#edit-keys{
     padding-bottom: 2px;
 }
-
-
