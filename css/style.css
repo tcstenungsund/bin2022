@@ -4,7 +4,99 @@
  */
 
 
+body {
+    font-family: 'Roboto Slab', serif;
+}
 
- <p>
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
-</p>
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url("../bin2022\fonts\Roboto_Slab\RobotoSlab-VariableFont_wght.ttf")
+}
+
+.center {
+    margin: 0 auto;
+}
+#CollapsingNavbar{
+display: flex;
+flex-direction: row-reverse;
+}
+#edit-keys{
+background-color: #EEE5E9;
+}
+.views-row { 
+background-color: #EEE5E9;
+border-radius: 0.25rem!important;
+}
+#navbar-top{
+    flex-direction: row-reverse;
+}
+.image-style-medium {
+    width: 100%;
+    height: 300px;
+}
+
+ .card-text {
+   color: #EEE5E9;
+ }
+
+ .card-title {
+    font-size: 1.5em;
+    text-decoration: underline;
+ }
+
+
+ 
+
+ 
+
+
+
+
+ /*     Huvudmenyn      */
+ a{
+    font-family: 'Roboto', sans-serif;
+}
+
+ a.nav-link{
+    color: black;
+    width: 8em;
+    margin-left: 20px;
+}
+
+
+/* Dropdown Menu */
+ul.dropdown-menu.show{
+    background-color: #444;
+}
+
+ul.dropdown-menu.show a{
+    color: white;
+}
+
+li.dropdown-item:hover{
+    background-color: #F6E000;
+}
+
+li.dropdown-item a:hover{
+    color: black;
+}
+
+
+/* Sökrutan */
+
+section.row.region.region-header-form div{
+    display: flex;
+}
+
+section.row.region.region-header-form div h2{
+    font-size: 20px;
+    margin-top: 9px;
+}
+.content.container-inline{
+    height: 2.5em;
+    order:1;
+}
+
+div#edit-actions, input#edit-keys{
+    padding-bottom: 2px;
+}
