@@ -28,7 +28,7 @@ background-color: #EEE5E9;
 border-radius: 0.25rem!important;
 }
 #navbar-top{
-    flex-direction: row-reverse;
+    padding: 0.5rem 1rem;
 }
 .image-style-medium {
     width: 100%;
